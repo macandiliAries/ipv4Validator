@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<phpunit
+        colors="true"
+        verbose="true"
+        bootstrap="./vendor/autoload.php"
+        stopOnRisky="false"
+        stopOnError="false"
+        stopOnSkipped="false"
+        stopOnFailure="false"
+        stopOnIncomplete="false"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/9.3/phpunit.xsd"
+        beStrictAboutTestsThatDoNotTestAnything="false"
+>
+    <coverage processUncoveredFiles="true">
+        <include>
+            <directory suffix=".php">/test/php</directory>
+        </include>
+
+        <!-- XDebug needs to be installed to view coverage in HTML format. -->
+        <report>
+            <html outputDirectory="coverage" lowUpperBound="35" highLowerBound="70"/>
+        </report>
+    </coverage>
+
+    <testsuites>
+        <testsuite name="Main Test Suite">
+            <directory suffix=".php">test/php</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>

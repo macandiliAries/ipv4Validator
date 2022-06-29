@@ -1,0 +1,30 @@
+{
+	"name": "validate/ipv4",
+	"description": "IPv4 validator library using vanilla PHP 8.",
+	"license": "MIT",
+	"type": "library",
+	"authors": [{
+		"name": "Aries V. Macandili",
+		"email": "macandili.aries@gmail.com",
+		"homepage": "https://github.com/macandiliAries",
+        "role": "Developer"
+	}],
+	"scripts": {
+		"test": "vendor/bin/phpunit"
+	},
+	"autoload": {
+		"classmap": [
+			"src/"
+		],
+		"psr-4": {
+			"Validate\\Ipv4\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"require": {
+        "php": ">=8.0.0"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	}
+}

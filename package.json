@@ -1,0 +1,24 @@
+{
+	"name": "ipv4validator",
+	"description": "IPv4 validator library using vanilla JavaScript.",
+	"version": "1.0.0",
+	"author": {
+		"name": "Aries V. Macandili",
+		"email": "macandili.aries@gmail.com",
+		"url": "https://github.com/macandiliAries"
+	},
+	"license": "MIT",
+	"keywords": [],
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"test": "nyc --reporter=text mocha test/js"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"chai": "^4.3.6",
+		"mocha": "^9.2.2",
+		"nyc": "^15.1.0"
+	}
+}
