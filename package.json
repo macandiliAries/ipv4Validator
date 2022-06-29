@@ -2,11 +2,14 @@
 	"name": "ipv4validator",
 	"description": "IPv4 validator library using vanilla JavaScript.",
 	"version": "1.0.0",
-	"homepage": "https://github.com/macandiliAries/ipv4Validator",
 	"author": {
 		"name": "Aries V. Macandili",
 		"email": "macandili.aries@gmail.com",
 		"url": "https://github.com/macandiliAries"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/macandiliAries/ipv4Validator"
 	},
 	"license": "MIT",
 	"keywords": ["ip", "ipv4", "validation", "validator", "ipvalidation", "ipvalidator", "ipv4validation", "ipv4validator"],
