@@ -9,7 +9,7 @@
 		"url": "https://github.com/macandiliAries"
 	},
 	"license": "MIT",
-	"keywords": [],
+	"keywords": ["ip", "ipv4", "validation", "validator", "ipvalidation", "ipvalidator", "ipv4validation", "ipv4validator"],
 	"directories": {
 		"test": "test"
 	},
