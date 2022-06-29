@@ -5,7 +5,7 @@
 - Adding of valid/invalid IPv4 address ranges can be dynamic.
 
 ## Table of Contents
-- [Sample Psuedocode](#sample-pseudocode)
+- [Sample Pseudocode](#sample-pseudocode)
 - [Installation via Dependency Managers](#installation-via-dependency-managers)
 - [Sample Usages](#sample-usages)
 - [Notes](#notes)
