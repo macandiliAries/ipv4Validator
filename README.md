@@ -3,6 +3,8 @@
 - Instead of using RegExp validations _(which is error-prone)_, this validator will convert each octet of the IPv4 address to be checked into 8-bit binary, then to decimal.
   - Then check if that IPv4 address is in between the ranges set _(which are converted first into 8-bit then into decimal as well)_.
 - Adding of valid/invalid IPv4 address ranges can be dynamic.
+- This can be useful for instances like:
+  - Blocking/Allowing access _(by country or by IP)_.
 
 ## Table of Contents
 - [Sample Pseudocode](#sample-pseudocode)
